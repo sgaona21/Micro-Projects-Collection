@@ -6,6 +6,18 @@
     list-style: none;
 }
 
+body {
+    background-color: lightgrey;
+}
+
+.mainContainer {
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 1rem;
+    height: 97vh;
+
+}
+
 h1 {
     text-align: center;
     padding: 2rem;
@@ -20,10 +32,11 @@ h1 {
 
 .categories {
     padding: 1rem;
-    border: solid 4px aquamarine;
+    border: solid 3px aquamarine;
     border-radius: 10px;
-    margin: 1rem;
+    margin: 1.5rem;
     text-align: center;
+    background-color: whitesmoke;
 
 }
 
