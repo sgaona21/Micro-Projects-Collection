@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Mukta', sans-serif;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -30,7 +31,7 @@ h1 {
     grid-template-rows: 200px 200px 200px;
 }
 
-.categories {
+/* .categories {
     padding: 1rem;
     border: solid 3px aquamarine;
     border-radius: 10px;
@@ -38,8 +39,19 @@ h1 {
     text-align: center;
     background-color: whitesmoke;
 
+} */
+
+.categories {
+    display: grid;
+
 }
 
 li a {
-    text-decoration: none;
+    padding: 1rem;
+    border: solid 3px aquamarine;
+    border-radius: 10px;
+    margin: 1.5rem;
+    text-align: center;
+    background-color: whitesmoke;
+
 }
