@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.categories {
+    padding: 1rem;
+    border: solid 4px aquamarine;
+    border-radius: 10px;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+li a {
+    text-decoration: none;
+}
